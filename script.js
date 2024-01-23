@@ -1,5 +1,6 @@
 //your JS code here. If required.
-function convertToUpperCase() {
-			let x = document.getElementById("fname");
-			x.value = x.value.toUpperCase();
-		}
+let id = document.getElementById("fname");
+id.addEventListener("blur", function()  {
+			
+			id.value = id.value.toUpperCase();
+		});
