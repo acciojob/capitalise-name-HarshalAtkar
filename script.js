@@ -1,4 +1,5 @@
 //your JS code here. If required.
-let id=document.getElementById('#fname');
-
-id.capatalize();
+function convertToUpperCase() {
+			let x = document.getElementById("fname");
+			x.value = x.value.toUpperCase();
+		}
